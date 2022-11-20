@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <form onsubmit="savetoLocalStorage(event)">
+        	<label>Name:</label>
+            <input type="text" name="username" required/>
+            <label>Email:</label>
+            <input type="email" name="emailId" required/>
+            <label>phone Number:</label>
+            <input type="tel" name="phonenumber" />
+            <button> Submit</button>
+        </form>
+        <script >
+        	function savetoLocalStorage(event){
+        		event.preventDefault();
+        	} 
+        </script>
+    </body>
+</html>
